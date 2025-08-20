@@ -17,3 +17,5 @@ This PowerShell script downloads ASU Mathcast (Opencast) videos in bulk using th
 
 ```powershell
 .\mathcast.ps1
+
+It will generate streams.txt and then call yt-dlp to download all videos into the Mathcast folder.
